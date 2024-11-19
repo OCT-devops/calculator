@@ -62,7 +62,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       width: value == Btn.n0
                           ? screenSize.width / 2
                           : (screenSize.width / 4),
-                      height: screenSize.width / 3,
+                      height: screenSize.width / 4,
                       child: buildButton(value),
                     ),
                   )
